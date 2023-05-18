@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* top-banner section start here  */
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 15% -10% 0% 10%;
+    
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+}
+.half-width img{
+    width: 100%;
+    margin-top: -80px;
+}
+h3{
+    font-weight: 500;
+}
+h1{
+    font-size: 30px;
+    color:#EE648C ;
+}
+.para{
+    font-size: 12px;
+    margin: 15px 0px;
+    color: #747474;
+    text-align: justify;
+}
+.link-button{
+    padding: 10px 30px;
+    background-image: linear-gradient(45deg,#EC5093,#f1446d);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+/* top-banner section ends here  */
+
+/* biography-section start here  */
+.biography-section{
+    background-image: url(images/biography-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+}
+.half-width .images{
+    width: 100%;
+    margin: -7% 0% 10% -10%;
+}
+/* biography-section ends here  */
+
+/* my latest work section start here  */
+.my-work-area{
+    background-image: url(images/latest-work-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-work{
+    width: 25%;
+    float: left;
+}
+.my-work img{
+    width: 100%;
+   margin-bottom: 30%;
+}
+h2{
+    padding-top: 100px;
+    text-align: center;
+}
+/* my latest work section end here  */
+
+/* foter area start here  */
+.footer-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-text h2{
+    margin-bottom: 40px;
+}
+.footer-text p{
+    padding-top: 30px;
+    width: 500px;
+    margin: auto;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.footer-text .email-box{
+    width: 400px;
+    padding: 20px;
+    background-image: linear-gradient(45deg,#EC5093,#f1446d);
+    margin: auto;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 50px;
+}
+.footer-text .email-box span{
+    font-size: 13px;
+    
+}
